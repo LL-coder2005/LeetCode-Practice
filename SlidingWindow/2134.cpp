@@ -30,6 +30,7 @@ public:
         // 如果没有 1，则不需要交换
         if (k == 0) return 0;
 
+        
         int n = nums.size();
         int zerosInWindow = 0;
         int ans = INT_MAX;
